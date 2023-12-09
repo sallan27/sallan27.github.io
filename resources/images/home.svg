@@ -1,0 +1,8 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(0, 62.5)">
+        <rect width="250" height="250" fill="black" transform="translate(125, 125)" />
+        <path d="M 62.5 126 L 250 0 L 437.5 126 Z" stroke="none" fill="black"/>
+        <rect width="125" height="125" fill="white" transform="translate(187.5, 251)" />
+    </g>
+</svg>
