@@ -26,8 +26,8 @@ h2 {
   border: 2px solid #011f4b;
   border-radius: 25px;
   block-size: 100px;
-  width:240px;
-  height:240px;
+  width:260px;
+  height:260px;
   padding:10px;
 }
 
@@ -69,4 +69,4 @@ p {
 .blue1 {color: #011f4b;}
 .center {text-align: center;}
 .boxtext1 {font-size: 2em;}
-.boxtext2 {font-size: large;}
+.boxtext2 {font-size: medium;}
