@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <nav id="pagenav" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <nav id="barnav" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <a class="navbar-brand" href="/">Saif's Music Reviews</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -19,6 +19,9 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                     <a class="nav-link" href="reviews.html">Reviews</a>
+                    </li>
+                    <li>
+                        <button class="btn btn-primary" onclick="gridMe()">Grid view!</button>
                     </li>
                 </ul>
             </div>
@@ -57,7 +60,10 @@
     </footer>
     <script src="resources/jquery.js"></script>
     <script>
-        
+      function gridMe(){
+        var nav = document.getElementById("pagenav");
+        nav.style.display = 'grid';
+      }
     </script>
 </body>
 
